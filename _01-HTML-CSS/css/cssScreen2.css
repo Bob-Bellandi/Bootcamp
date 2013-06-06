@@ -1,0 +1,236 @@
+/* CSS */
+
+/* ----------- Reset ----------- */
+* {
+	margin:0px;
+	padding:0px;
+	font-family:Times, Times Roman, Times New Roman, serif;
+	font-size:21px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
+/* -----------  HTML tags ------------ */
+h1 {
+	color:#993300;
+	font-family:arial,verdana,sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+h2 {
+	color:#993300;
+	font-family:arial,verdana,sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	margin:0;
+	padding:12px 0px;
+}
+p {
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#333333;
+	line-height: 16px;
+}
+	p a {
+	font-family:arial,verdana,sans-serif;
+	font-size:12px;
+	color:#993300;
+}
+
+
+/* -----------  Unique items ------------ */
+#wrapper {
+	width:865px;
+	min-height:500px;
+	margin:auto;
+}
+#heading {
+	position:relative;
+	width:865px;
+	height:75px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../images/Screen-2Head.png);
+	background-repeat:no-repeat;
+}
+	#heading-head {
+		width:480px;
+		height:50px;
+		position:absolute;bottom:0; left:0;
+	}
+		#heading-head h1 {
+			font-size:20px;
+			font-weight:normal;
+			color:#ffffff;
+			font-family:arial,verdana,sans-serif;
+			text-align:right;
+			vertical-align:-25px;
+		}
+	#heading-nav {
+		width:805px;
+		height:50px;
+		font-size:12px;
+		color:#ffffff;
+		text-align:right;
+		line-height:25px;
+		font-family:arial,verdana,sans-serif;
+	}
+	#heading-nav a {
+		color:yellow;
+		text-decoration:none;
+		font-size:12px;
+		font-family:arial,verdana,sans-serif;
+	}
+	#heading-search {
+		width:805px;
+		height:40px;
+		text-align:right;
+		line-height:18px;
+	}
+		::-webkit-input-placeholder {
+   			color:#bbbbbb;
+   			font-family:Arial, verdana, sans-serif;
+   			font-size:13px;
+		}
+		#search_box{
+    		border: 1px solid #bb0000;
+    		border-radius:3px; 
+            background-color:#ffffff;
+            font-family:arial, verdana, sans-serif;
+            font-size:12px;
+            color:#ffffff;
+		}
+		#button {
+			background-color:#993300;
+			color:#ffffff;
+			margin:1px
+			border:1px solid #ffffff;
+			font-family:arial, verdana, sans-serif;
+			font-size:10px;
+            color:#ffffff;
+		}
+
+/* - - - - - -  Navigation - - - - - - */	
+#nav1 {
+	height:30px;
+	background-color:#dedede;
+	margin:0;
+}
+	#nav1 ul {
+		padding-left:35px;
+		list-style:none;
+	}
+	#nav1 li {
+		list-style: none;
+		display:inline-block;
+		width:95px;
+		border-right:1px solid #bcbcbc;
+	}
+	#nav1 a {
+		font-family:arial, verdana, sans-serif;
+		font-weight:bold;
+		color:#969696;
+		text-decoration:none;
+		font-size:12px;
+	}
+	 #nav1 a:hover {
+		color:#993300;
+	}
+	#nav1 li:last-child {
+		border-right:0px;
+	}
+
+#nav2 {
+	margin-top:20px;
+	width:150px;
+	padding:10px;
+	background-color:#ededed;
+	border:1px solid #bcbcbc;
+	float:left;
+}
+	#nav2 li {
+		list-style: none;
+	}
+	#nav2 a {
+		font-family:arial, verdana, sans-serif;
+		color:#993300;
+		text-decoration:none;
+		font-size:11px;
+		line-height: 11px;
+	}
+	 #nav2 a:hover {
+		color:#000000;
+	}
+/* - - - - - -  Contents (on right) - - - - - - */
+#contents {
+	width:630px;
+	margin:20px 0 0 20px;
+	padding:0;
+	float:left;
+}
+	#contents ul {
+		margin-left:20px;
+	}
+	#contents ul li {
+		font-size:12px;
+		padding-top:04px;
+		margin-left:0px;
+		line-height:10px;
+	}
+	#contents ul li a {
+		font-family:arial, verdana, sans-serif;
+		color:#993300;
+		text-decoration:none;
+		font-size:11px;
+		line-height: 11px;
+	}
+	#contents ul li a:hover {
+		color:#000000;
+	}
+	#contents ol {
+		margin-left:20px;
+	}
+	#contents ol li {
+		font-size:12px;
+		padding-top:04px;
+		margin-left:0px;
+		line-height:10px;
+	}
+	#contents ol li a {
+		font-family:arial, verdana, sans-serif;
+		color:#993300;
+		font-size:11px;
+		line-height: 11px;
+	}
+	#contents ol li a:hover {
+		color:#000000;
+	}
+	#indent_bullets {
+		margin-left:20px;
+	}
+	#border_news {
+		margin-top:10px;
+		padding-bottom:10px;
+		border-top:2px solid #999999;
+		border-bottom:2px solid #999999;
+		font-family:arial, verdana, sans-serif;
+	}
+	.notice {
+		font-weight:bold;
+		font-family:arial, verdana, sans-serif;
+		font-size:12px;
+	}
+	.notice_normal {
+		font-weight:normal;
+		font-family:arial, verdana, sans-serif;
+		font-size:12px;
+	}

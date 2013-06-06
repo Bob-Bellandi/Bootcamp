@@ -1,0 +1,53 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<title>jQuery Exercises - Using Datepicker</title>
+	<meta name="description" content="jQuery UI Datepicker">
+	<meta name="author" content="Bob Bellandi">
+	<link rel="stylesheet" type="text/css" href="css/style-datepicker.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/eggplant/jquery-ui.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+  			$('#dates_paragraph').hide();//Hides, for now, the paragraph that will hold the dates that the user will input.  
+  		$(function() {
+    		$('.pick_date').datepicker();//Implements jQuery UI Datepicker. The class "pick_date" is used for both the TO and FROM input fields. A class was chosen because the datepicker function must be used in more than one instance in this application.
+    		});//end datepicker
+    		$('#dates').submit(function() { //ID refers to form.
+    			$('#From_res').text($('#From').val());
+   				$('#To_res').text($('#To').val());
+   				//--------
+  				$('#dates_paragraph').show();//Display the user's info in a paragraph - a paragraph initially hidden from view.
+  				$('#input:not(#submit)').val(''); //clears fields after submittal
+  				return false;
+  			});//end submit
+  		});//end ready
+  	</script>
+
+</head>
+<body>
+
+<!-- ASSIGNMENT: Create a html form with two input for dates and a submit button (the button must be input type='submit' and not a button html tag). When the form is submitted, have it display the values of the two input date fields above the form. Use jQueryUI datepicker function for the two dates.
+ -->
+
+<h1>Set Dates for Success</h1>
+<!-- Create a paragraph that will be used to return info to visitor. It is hidden initially from view.-->
+<p id="dates_paragraph">
+Your form information:<br>
+From: <span id="From_res"></span><br>
+To: <span id="To_res"></span>
+</p>
+<!-- end Return info to visitor -->
+
+<form action="" method="post" id="dates"> 
+	<label for="fromDate">From: </label>
+	<input type="text" name="fromDate" id="From" class="pick_date" placeholder="Enter start date"><br>
+	<label for="toDate">&nbsp;&nbsp;To: </label>
+	<input type="text" name="toDate" id="To" class="pick_date" placeholder="Enter end date">
+	<input type="submit" value="Submit" id="submit">
+</form>
+ 
+</body>
+
+</html>

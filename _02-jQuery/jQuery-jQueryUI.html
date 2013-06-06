@@ -1,0 +1,477 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<title>jQuery Exercises - Common UI</title>
+	<meta name="description" content="jQuery UI">
+	<meta name="author" content="Bob Bellandi">
+	<link rel="stylesheet" type="text/css" href="css/style-UI.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/eggplant/jquery-ui.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	 <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+</head>
+<body>
+
+<!-- ASSIGNMENT: Understand how accordion, datepicker, dialog, and tabs work and integrate those on a web page. Create a page where user can select a 'from' date and 'to' date. -->
+
+<h1>Accordion - with Henry David Thoreau</h1>
+<div id="accordion">
+  <h3>CONCORD TO MONTREAL</h3>
+  <div>
+    <p>
+    I fear that I have not got much to say about Canada, not having seen
+much; what I got by going to Canada was a cold. I left Concord,
+Massachusetts, Wednesday morning, September 25th, 1850, for Quebec.
+Fare, seven dollars there and back; distance from Boston, five hundred
+and ten miles; being obliged to leave Montreal on the return as soon
+as Friday, October 4th, or within ten days. I will not stop to tell
+the reader the names of my fellow-travelers; there were said to be
+fifteen hundred of them. I wished only to be set down in Canada, and
+take one honest walk there as I might in Concord woods of an
+afternoon.</p>
+<p>
+The country was new to me beyond Fitchburg. In Ashburnham and
+afterward, as we were whirled rapidly along, I noticed the woodbine
+(_Ampelopsis quinquefolia_), its leaves now changed, for the most part
+on dead trees, draping them like a red scarf. It was a little
+exciting, suggesting bloodshed, or at least a military life, like an
+epaulet or sash, as if it were dyed with the blood of the trees whose
+wounds it was inadequate to stanch. For now the bloody autumn was
+come, and an Indian warfare was waged through the forest. These
+military trees appeared very numerous, for our rapid progress
+connected those that were even some miles apart. Does the woodbine
+prefer the elm? The first view of Monadnock was obtained five or six
+miles this side of Fitzwilliam, but nearest and best at Troy and
+beyond. Then there were the Troy cuts and embankments. Keene Street
+strikes the traveler favorably, it is so wide, level, straight, and
+long. I have heard one of my relatives, who was born and bred there,
+say that you could see a chicken run across it a mile off. I have also
+been told that when this town was settled they laid out a street four
+rods wide, but at a subsequent meeting of the proprietors one rose and
+remarked, "We have plenty of land, why not make the street eight rods
+wide?" and so they voted that it should be eight rods wide, and the
+town is known far and near for its handsome street. It was a cheap way
+of securing comfort, as well as fame, and I wish that all new towns
+would take pattern from this. It is best to lay our plans widely in
+youth, for then land is cheap, and it is but too easy to contract our
+views afterward. Youths so laid out, with broad avenues and parks,
+that they may make handsome and liberal old men! Show me a youth whose
+mind is like some Washington city of magnificent distances, prepared
+for the most remotely successful and glorious life after all, when
+those spaces shall be built over and the idea of the founder be
+realized. I trust that every New England boy will begin by laying out
+a Keene Street through his head, eight rods wide. I know one such
+Washington city of a man, whose lots as yet are only surveyed and
+staked out, and, except a cluster of shanties here and there, only the
+Capitol stands there for all structures, and any day you may see from
+afar his princely idea borne coachwise along the spacious but yet
+empty avenues. Keene is built on a remarkably large and level
+interval, like the bed of a lake, and the surrounding hills, which are
+remote from its street, must afford some good walks. The scenery of
+mountain towns is commonly too much crowded. A town which is built on
+a plain of some extent, with an open horizon, and surrounded by hills
+at a distance, affords the best walks and views.
+    </p>
+  </div>
+  <h3>QUEBEC AND MONTMORENCI</h3>
+  <div>
+    <p>
+    About six o'clock we started for Quebec, one hundred and eighty miles
+distant by the river; gliding past Longueuil and Boucherville on the
+right, and Pointe aux Trembles, "so called from having been originally
+covered with aspens," and Bout de l'Isle, or the end of the island, on
+the left. I repeat these names not merely for want of more substantial
+facts to record, but because they sounded singularly poetic to my
+ears. There certainly was no lie in them. They suggested that some
+simple, and, perchance, heroic human life might have transpired there.
+There is all the poetry in the world in a name. It is a poem which the
+mass of men hear and read. What is poetry in the common sense, but a
+string of such jingling names? I want nothing better than a good word.
+The name of a thing may easily be more than the thing itself to me.
+Inexpressibly beautiful appears the recognition by man of the least
+natural fact, and the allying his life to it. All the world
+reiterating this slender truth, that aspens once grew there; and the
+swift inference is that men were there to see them. And so it would be
+with the names of our native and neighboring villages, if we had not
+profaned them.</p>
+<p>
+The daylight now failed us, and we went below; but I endeavored to
+console myself for being obliged to make this voyage by night, by
+thinking that I did not lose a great deal, the shores being low and
+rather unattractive, and that the river itself was much the more
+interesting object. I heard something in the night about the boat
+being at William Henry, Three Rivers, and in the Richelieu Rapids, but
+I was still where I had been when I lost sight of Pointe aux Trembles.
+To hear a man who has been waked up at midnight in the cabin of a
+steamboat inquiring, "Waiter, where are we now?" is as if, at any
+moment of the earth's revolution round the sun, or of the system round
+its centre, one were to raise himself up and inquire of one of the
+deck hands, "Where are we now?"</p>
+<p>
+I went on deck at daybreak, when we were thirty or forty miles above
+Quebec. The banks were now higher and more interesting. There was an
+"uninterrupted succession of whitewashed cottages," on each side of
+the river. This is what every traveler tells. But it is not to be
+taken as an evidence of the populousness of the country in general,
+hardly even of the river-banks. They have presented a similar
+appearance for a hundred years. The Swedish traveler and naturalist
+Kalm, who descended the river in 1749, says, "It could really be
+called a village, beginning at Montreal and ending at Quebec, which is
+a distance of more than one hundred and eighty miles; for the
+farmhouses are never above five arpents, and sometimes but three
+asunder, a few places excepted." Even in 1684 Hontan said that the
+houses were not more than a gunshot apart at most. Ere long we passed
+Cape Rouge, eight miles above Quebec, the mouth of the Chaudière on
+the opposite or south side; New Liverpool Cove with its lumber-rafts
+and some shipping; then Sillery and Wolfe's Cove and the Heights of
+Abraham on the north, with now a view of Cape Diamond, and the citadel
+in front. The approach to Quebec was very imposing. It was about six
+o'clock in the morning when we arrived. There is but a single street
+under the cliff on the south side of the cape, which was made by
+blasting the rocks and filling up the river. Three-story houses did
+not rise more than one fifth or one sixth the way up the nearly
+perpendicular rock, whose summit is three hundred and forty-five feet
+above the water. We saw, as we glided past, the sign on the side of
+the precipice, part way up, pointing to the spot where Montgomery was
+killed in 1775. Formerly it was the custom for those who went to
+Quebec for the first time to be ducked, or else pay a fine. Not even
+the Governor-General escaped. But we were too many to be ducked, even
+if the custom had not been abolished.
+    </p>
+  </div>
+  <h3>ST. ANNE</h3>
+  <div>
+    <p>
+    By the middle of the forenoon, though it was a rainy day, we were once
+more on our way down the north bank of the St. Lawrence, in a
+northeasterly direction, toward the Falls of St. Anne, which are about
+thirty miles from Quebec. The settled, more level, and fertile portion
+of Canada East may be described rudely as a triangle, with its apex
+slanting toward the northeast, about one hundred miles wide at its
+base, and from two to three or even four hundred miles long, if you
+reckon its narrow northeastern extremity; it being the immediate
+valley of the St. Lawrence and its tributaries, rising by a single or
+by successive terraces toward the mountains on either hand. Though the
+words Canada East on the map stretch over many rivers and lakes and
+unexplored wildernesses, the actual Canada, which might be the colored
+portion of the map, is but a little clearing on the banks of the
+river, which one of those syllables would more than cover. The banks
+of the St. Lawrence are rather low from Montreal to the Richelieu
+Rapids, about forty miles above Quebec. Thence they rise gradually to
+Cape Diamond, or Quebec. Where we now were, eight miles northeast of
+Quebec, the mountains which form the northern side of this triangle
+were only five or six miles distant from the river, gradually
+departing farther and farther from it, on the west, till they reach
+the Ottawa, and making haste to meet it on the east, at Cape
+Tourmente, now in plain sight about twenty miles distant. So that we
+were traveling in a very narrow and sharp triangle between the
+mountains and the river, tilted up toward the mountains on the north,
+never losing sight of our great fellow-traveler on our right.
+According to Bouchette's Topographical Description of the Canadas, we
+were in the Seigniory of the Côte de Beaupré, in the county of
+Montmorenci, and the district of Quebec,--in that part of Canada which
+was the first to be settled, and where the face of the country and the
+population have undergone the least change from the beginning, where
+the influence of the States and of Europe is least felt, and the
+inhabitants see little or nothing of the world over the walls of
+Quebec. This Seigniory was granted in 1636, and is now the property of
+the Seminary of Quebec. It is the most mountainous one in the
+province. There are some half a dozen parishes in it, each containing
+a church, parsonage-house, gristmill, and several sawmills. We were
+now in the most westerly parish, called Ange Gardien, or the Guardian
+Angel, which is bounded on the west by the Montmorenci. The north bank
+of the St. Lawrence here is formed on a grand scale. It slopes gently,
+either directly from the shore or from the edge of an interval, till,
+at the distance of about a mile, it attains the height of four or five
+hundred feet. The single road runs along the side of the slope two or
+three hundred feet above the river at first, and from a quarter of a
+mile to a mile distant from it, and affords fine views of the north
+channel, which is about a mile wide, and of the beautiful Isle of
+Orleans, about twenty miles long by five wide, where grow the best
+apples and plums in the Quebec district.</P>
+  </div>
+  <h3>THE WALLS OF QUEBEC</h3>
+  <div>
+    <p>
+    After spending the night at a farmhouse in Château Richer, about a
+dozen miles northeast of Quebec, we set out on our return to the city.
+We stopped at the next house, a picturesque old stone mill, over the
+_Chipré_,--for so the name sounded,--such as you will nowhere see in
+the States, and asked the millers the age of the mill. They went
+upstairs to call the master; but the crabbed old miser asked why we
+wanted to know, and would tell us only for some compensation. I wanted
+French to give him a piece of my mind. I had got enough to talk on a
+pinch, but not to quarrel, so I had to come away, looking all I would
+have said. This was the utmost incivility we met with in Canada. In
+Beauport, within a few miles of Quebec, we turned aside to look at a
+church which was just being completed,--a very large and handsome
+edifice of stone, with a green bough stuck in its gable, of some
+significance to Catholics. The comparative wealth of the Church in
+this country was apparent; for in this village we did not see one good
+house besides. They were all humble cottages; and yet this appeared to
+me a more imposing structure than any church in Boston. But I am no
+judge of these things.</p>
+<p>
+Reëntering Quebec through St. John's Gate, we took a caleche in Market
+Square for the Falls of the Chaudière, about nine miles southwest of
+the city, for which we were to pay so much, besides forty sous for
+tolls. The driver, as usual, spoke French only. The number of these
+vehicles is very great for so small a town. They are like one of our
+chaises that has lost its top, only stouter and longer in the body,
+with a seat for the driver where the dasher is with us, and broad
+leather ears on each side to protect the riders from the wheel and
+keep children from falling out. They had an easy jaunting look, which,
+as our hours were numbered, persuaded us to be riders. We met with
+them on every road near Quebec these days, each with its complement of
+two inquisitive-looking foreigners and a Canadian driver, the former
+evidently enjoying their novel experience, for commonly it is only the
+horse whose language you do not understand; but they were one remove
+further from him by the intervention of an equally unintelligible
+driver. We crossed the St. Lawrence to Point Levi in a French-Canadian
+ferry-boat, which was inconvenient and dirty, and managed with great
+noise and bustle. The current was very strong and tumultuous; and the
+boat tossed enough to make some sick, though it was only a mile
+across; yet the wind was not to be compared with that of the day
+before, and we saw that the Canadians had a good excuse for not taking
+us over to the Isle of Orleans in a pirogue, however shiftless they
+may be for not having provided any other conveyance. The route which
+we took to the Chaudière did not afford us those views of Quebec which
+we had expected, and the country and inhabitants appeared less
+interesting to a traveler than those we had seen. The Falls of the
+Chaudière are three miles from its mouth on the south side of the St.
+Lawrence. Though they were the largest which I saw in Canada, I was
+not proportionately interested by them, probably from satiety. I did
+not see any peculiar propriety in the name _Chaudière_, or caldron. I
+saw here the most brilliant rainbow that I ever imagined. It was just
+across the stream below the precipice, formed on the mist which this
+tremendous fall produced; and I stood on a level with the keystone of
+its arch. It was not a few faint prismatic colors merely, but a full
+semicircle, only four or five rods in diameter, though as wide as
+usual, so intensely bright as to pain the eye, and apparently as
+substantial as an arch of stone. It changed its position and colors as
+we moved, and was the brighter because the sun shone so clearly and
+the mist was so thick. Evidently a picture painted on mist for the men
+and animals that came to the falls to look at; but for what special
+purpose beyond this, I know not. At the farthest point in this ride,
+and when most inland, unexpectedly at a turn in the road we descried
+the frowning citadel of Quebec in the horizon, like the beak of a bird
+of prey. We returned by the river road under the bank, which is very
+high, abrupt, and rocky. When we were opposite to Quebec, I was
+surprised to see that in the Lower Town, under the shadow of the rock,
+the lamps were lit, twinkling not unlike crystals in a cavern, while
+the citadel high above, and we, too, on the south shore, were in broad
+daylight. As we were too late for the ferry-boat that night, we put up
+at a _maison de pension_ at Point Levi. The usual two-story stove was
+here placed against an opening in the partition shaped like a
+fireplace, and so warmed several rooms. We could not understand their
+French here very well, but the _potage_ was just like what we had had
+before. There were many small chambers with doorways, but no doors.
+The walls of our chamber, all around and overhead, were neatly ceiled,
+and the timbers cased with wood unpainted. The pillows were checkered
+and tasseled, and the usual long-pointed red woolen or worsted
+nightcap was placed on each. I pulled mine out to see how it was made.
+It was in the form of a double cone, one end tucked into the other;
+just such, it appeared, as I saw men wearing all day in the streets.
+Probably I should have put it on if the cold had been then, as it is
+sometimes there, thirty or forty degrees below zero.
+    </p>
+  </div>
+</div>
+
+<h1>Datepicker</h1>
+<p>Please see separate assignment with Datepicker.</p>
+
+<h1>Tabs</h1>
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">CONCORD TO MONTREAL</a></li>
+    <li><a href="#tabs-2">QUEBEC AND MONTMORENCI</a></li>
+    <li><a href="#tabs-3">ST. ANNE</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>
+    I fear that I have not got much to say about Canada, not having seen
+much; what I got by going to Canada was a cold. I left Concord,
+Massachusetts, Wednesday morning, September 25th, 1850, for Quebec.
+Fare, seven dollars there and back; distance from Boston, five hundred
+and ten miles; being obliged to leave Montreal on the return as soon
+as Friday, October 4th, or within ten days. I will not stop to tell
+the reader the names of my fellow-travelers; there were said to be
+fifteen hundred of them. I wished only to be set down in Canada, and
+take one honest walk there as I might in Concord woods of an
+afternoon.</p>
+<p>
+The country was new to me beyond Fitchburg. In Ashburnham and
+afterward, as we were whirled rapidly along, I noticed the woodbine
+(_Ampelopsis quinquefolia_), its leaves now changed, for the most part
+on dead trees, draping them like a red scarf. It was a little
+exciting, suggesting bloodshed, or at least a military life, like an
+epaulet or sash, as if it were dyed with the blood of the trees whose
+wounds it was inadequate to stanch. For now the bloody autumn was
+come, and an Indian warfare was waged through the forest. These
+military trees appeared very numerous, for our rapid progress
+connected those that were even some miles apart. Does the woodbine
+prefer the elm? The first view of Monadnock was obtained five or six
+miles this side of Fitzwilliam, but nearest and best at Troy and
+beyond. Then there were the Troy cuts and embankments. Keene Street
+strikes the traveler favorably, it is so wide, level, straight, and
+long. I have heard one of my relatives, who was born and bred there,
+say that you could see a chicken run across it a mile off. I have also
+been told that when this town was settled they laid out a street four
+rods wide, but at a subsequent meeting of the proprietors one rose and
+remarked, "We have plenty of land, why not make the street eight rods
+wide?" and so they voted that it should be eight rods wide, and the
+town is known far and near for its handsome street. It was a cheap way
+of securing comfort, as well as fame, and I wish that all new towns
+would take pattern from this. It is best to lay our plans widely in
+youth, for then land is cheap, and it is but too easy to contract our
+views afterward. Youths so laid out, with broad avenues and parks,
+that they may make handsome and liberal old men! Show me a youth whose
+mind is like some Washington city of magnificent distances, prepared
+for the most remotely successful and glorious life after all, when
+those spaces shall be built over and the idea of the founder be
+realized. I trust that every New England boy will begin by laying out
+a Keene Street through his head, eight rods wide. I know one such
+Washington city of a man, whose lots as yet are only surveyed and
+staked out, and, except a cluster of shanties here and there, only the
+Capitol stands there for all structures, and any day you may see from
+afar his princely idea borne coachwise along the spacious but yet
+empty avenues. Keene is built on a remarkably large and level
+interval, like the bed of a lake, and the surrounding hills, which are
+remote from its street, must afford some good walks. The scenery of
+mountain towns is commonly too much crowded. A town which is built on
+a plain of some extent, with an open horizon, and surrounded by hills
+at a distance, affords the best walks and views.
+    </p>
+  </div>
+  
+  <div id="tabs-2">
+      <p>
+    About six o'clock we started for Quebec, one hundred and eighty miles
+distant by the river; gliding past Longueuil and Boucherville on the
+right, and Pointe aux Trembles, "so called from having been originally
+covered with aspens," and Bout de l'Isle, or the end of the island, on
+the left. I repeat these names not merely for want of more substantial
+facts to record, but because they sounded singularly poetic to my
+ears. There certainly was no lie in them. They suggested that some
+simple, and, perchance, heroic human life might have transpired there.
+There is all the poetry in the world in a name. It is a poem which the
+mass of men hear and read. What is poetry in the common sense, but a
+string of such jingling names? I want nothing better than a good word.
+The name of a thing may easily be more than the thing itself to me.
+Inexpressibly beautiful appears the recognition by man of the least
+natural fact, and the allying his life to it. All the world
+reiterating this slender truth, that aspens once grew there; and the
+swift inference is that men were there to see them. And so it would be
+with the names of our native and neighboring villages, if we had not
+profaned them.</p>
+<p>
+The daylight now failed us, and we went below; but I endeavored to
+console myself for being obliged to make this voyage by night, by
+thinking that I did not lose a great deal, the shores being low and
+rather unattractive, and that the river itself was much the more
+interesting object. I heard something in the night about the boat
+being at William Henry, Three Rivers, and in the Richelieu Rapids, but
+I was still where I had been when I lost sight of Pointe aux Trembles.
+To hear a man who has been waked up at midnight in the cabin of a
+steamboat inquiring, "Waiter, where are we now?" is as if, at any
+moment of the earth's revolution round the sun, or of the system round
+its centre, one were to raise himself up and inquire of one of the
+deck hands, "Where are we now?"</p>
+<p>
+I went on deck at daybreak, when we were thirty or forty miles above
+Quebec. The banks were now higher and more interesting. There was an
+"uninterrupted succession of whitewashed cottages," on each side of
+the river. This is what every traveler tells. But it is not to be
+taken as an evidence of the populousness of the country in general,
+hardly even of the river-banks. They have presented a similar
+appearance for a hundred years. The Swedish traveler and naturalist
+Kalm, who descended the river in 1749, says, "It could really be
+called a village, beginning at Montreal and ending at Quebec, which is
+a distance of more than one hundred and eighty miles; for the
+farmhouses are never above five arpents, and sometimes but three
+asunder, a few places excepted." Even in 1684 Hontan said that the
+houses were not more than a gunshot apart at most. Ere long we passed
+Cape Rouge, eight miles above Quebec, the mouth of the Chaudière on
+the opposite or south side; New Liverpool Cove with its lumber-rafts
+and some shipping; then Sillery and Wolfe's Cove and the Heights of
+Abraham on the north, with now a view of Cape Diamond, and the citadel
+in front. The approach to Quebec was very imposing. It was about six
+o'clock in the morning when we arrived. There is but a single street
+under the cliff on the south side of the cape, which was made by
+blasting the rocks and filling up the river. Three-story houses did
+not rise more than one fifth or one sixth the way up the nearly
+perpendicular rock, whose summit is three hundred and forty-five feet
+above the water. We saw, as we glided past, the sign on the side of
+the precipice, part way up, pointing to the spot where Montgomery was
+killed in 1775. Formerly it was the custom for those who went to
+Quebec for the first time to be ducked, or else pay a fine. Not even
+the Governor-General escaped. But we were too many to be ducked, even
+if the custom had not been abolished.
+    </p>
+  </div>
+  
+  <div id="tabs-3">
+    <p>
+    By the middle of the forenoon, though it was a rainy day, we were once
+more on our way down the north bank of the St. Lawrence, in a
+northeasterly direction, toward the Falls of St. Anne, which are about
+thirty miles from Quebec. The settled, more level, and fertile portion
+of Canada East may be described rudely as a triangle, with its apex
+slanting toward the northeast, about one hundred miles wide at its
+base, and from two to three or even four hundred miles long, if you
+reckon its narrow northeastern extremity; it being the immediate
+valley of the St. Lawrence and its tributaries, rising by a single or
+by successive terraces toward the mountains on either hand. Though the
+words Canada East on the map stretch over many rivers and lakes and
+unexplored wildernesses, the actual Canada, which might be the colored
+portion of the map, is but a little clearing on the banks of the
+river, which one of those syllables would more than cover. The banks
+of the St. Lawrence are rather low from Montreal to the Richelieu
+Rapids, about forty miles above Quebec. Thence they rise gradually to
+Cape Diamond, or Quebec. Where we now were, eight miles northeast of
+Quebec, the mountains which form the northern side of this triangle
+were only five or six miles distant from the river, gradually
+departing farther and farther from it, on the west, till they reach
+the Ottawa, and making haste to meet it on the east, at Cape
+Tourmente, now in plain sight about twenty miles distant. So that we
+were traveling in a very narrow and sharp triangle between the
+mountains and the river, tilted up toward the mountains on the north,
+never losing sight of our great fellow-traveler on our right.
+According to Bouchette's Topographical Description of the Canadas, we
+were in the Seigniory of the Côte de Beaupré, in the county of
+Montmorenci, and the district of Quebec,--in that part of Canada which
+was the first to be settled, and where the face of the country and the
+population have undergone the least change from the beginning, where
+the influence of the States and of Europe is least felt, and the
+inhabitants see little or nothing of the world over the walls of
+Quebec. This Seigniory was granted in 1636, and is now the property of
+the Seminary of Quebec. It is the most mountainous one in the
+province. There are some half a dozen parishes in it, each containing
+a church, parsonage-house, gristmill, and several sawmills. We were
+now in the most westerly parish, called Ange Gardien, or the Guardian
+Angel, which is bounded on the west by the Montmorenci. The north bank
+of the St. Lawrence here is formed on a grand scale. It slopes gently,
+either directly from the shore or from the edge of an interval, till,
+at the distance of about a mile, it attains the height of four or five
+hundred feet. The single road runs along the side of the slope two or
+three hundred feet above the river at first, and from a quarter of a
+mile to a mile distant from it, and affords fine views of the north
+channel, which is about a mile wide, and of the beautiful Isle of
+Orleans, about twenty miles long by five wide, where grow the best
+apples and plums in the Quebec district.</p>
+  </div>
+</div>
+
+</body>
+
+</html>

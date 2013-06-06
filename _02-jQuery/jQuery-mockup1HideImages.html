@@ -1,0 +1,40 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("img").click(function(e) {
+				console.log(e);
+				console.log(this)
+				$(this).fadeOut(1000);
+		}); //click
+		$("img").dblclick(function() {
+			location.reload();
+					}); //doubleclick
+		$("#refresh_button").submit(function() {
+			location.reload();
+					}); //doubleclick
+
+		}); // document ready
+	</script>
+
+</head>
+
+<body>
+	<h1>Hide the Fruit</h1>
+	<img src="images/grapes1.png" alt="grapes">
+	<img src="images/grapes2.png" alt="grapes">
+	<img src="images/grapes3.png" alt="grapes">
+	<br>
+	<img src="images/pear1.png" alt="pear">
+	<img src="images/pear2.png" alt="pear">
+	<img src="images/pear3.png" alt="pear">
+	<p>To re-load all images, click the button below, or double-click any visible image.</p>
+	<form>
+		<input id="refresh_button" type="submit" value="Re-load">
+	</form>	
+</body>
+
+</html>

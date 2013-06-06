@@ -1,0 +1,35 @@
+body {
+font-family: Georgia, Arial, verdana, sans-serif;
+margin:25px;
+}
+table {
+	width:80%;
+	border:1px solid gray;
+	background:#dddddd;
+}
+td {
+	padding:0 10px 0 10px;
+	border:1px dotted gray;
+	font-family: sans-serif;
+	font-size:12px;
+}
+th {
+	font-family: sans-serif;
+	font-size:12px;
+}
+#wrapper {
+	width:750px;
+	padding:20px;
+	border:1px dotted black;
+	background-color: #bbffbb;
+	border-radius: 5px;
+	margin:auto;
+}
+h3 {
+	font-style: italic;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.highlight {
+	color:#33bb33;
+}

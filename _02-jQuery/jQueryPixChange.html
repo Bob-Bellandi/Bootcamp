@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>jQuery UI - Changeable Photo</title>
+  	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  	<link rel="stylesheet" type="text/css" href="css/style-changeable.css">
+  	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#segment_a").click(function() {
+				$("#segment_a").attr("src", "images/building2-a.png");
+			});
+			$("#segment_b").click(function() {
+				$("#segment_b").attr("src", "images/building2-b.png");
+			});
+			$("#segment_c").click(function() {
+				$("#segment_c").attr("src", "images/building2-c.png");
+			});
+			$("#segment_d").click(function() {
+				$("#segment_d").attr("src", "images/building2-d.png");
+			});
+			$("#segment_e").click(function() {
+				$("#segment_e").attr("src", "images/building2-e.png");
+			});
+		});//end ready
+</script>
+
+</head>
+<body>
+ 
+<h1 class="extra_space">Make a New Skyscraper</h1>
+<p>Click the image segments to create a new image:</p>
+<ul id="changeable">
+  <li><img id="segment_a" src="images/building1-a.png" alt="segment1"></li>
+  <li><img id="segment_b" src="images/building1-b.png" alt="segment2"></li>
+  <li><img id="segment_c" src="images/building1-c.png" alt="segment3"></li>
+  <li><img id="segment_d" src="images/building1-d.png" alt="segment4"></li>
+  <li><img id="segment_e" src="images/building1-e.png" alt="segment5"></li>
+</ul>
+
+
+</body>
+</html>

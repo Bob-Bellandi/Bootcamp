@@ -1,0 +1,52 @@
+body {
+	background-color: #ddeeaa;
+	font-family: arial, verdana, sans-serif;
+}
+h3 {
+	border-top: 1px solid brown;
+}
+p {
+	cursor:pointer;
+	width:400px;
+}
+.error {
+	background-color:pink;
+	border:1px solid red;
+	font-size:14px;
+}
+.success {
+	background-color:green;
+	border:1px solid black;
+	font-size:14px;
+}
+#refresh_button {
+	background-color: #006633;
+	border-radius: 3px;
+	color:#dddddd;
+}
+img {
+	cursor:pointer;
+}
+input {
+	cursor:pointer;
+}
+#dates_paragraph {
+	width:300px;
+	background-color:#006699;
+	color:white;
+	border:1px solid #333333;
+	border-radius:5px;
+	padding:10px;
+}
+.italicize {
+	font-style:italic;
+	font-size:40px;
+	color:orange;
+}
+.outline {
+	border:2px dashed green;
+}
+#the_next_h3 {
+	cursor:pointer;
+	color:brown;
+}

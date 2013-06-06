@@ -1,0 +1,49 @@
+/* Put your custom CSS here */
+
+h3 {
+	font-family:cursive, georgia, arial;
+	font-size: 21px;
+	color:#cc6699;
+	text-align: center;
+	text-shadow: 1px 1px #996699;
+}
+h4 {
+	font-family:cursive, georgia, arial;
+	font-size: 17px;
+	color:#ff9999;
+	text-align: left;
+	padding-left:30px;
+}
+h1 {
+	font-family:cursive, georgia, arial;
+}
+p {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:13px;	
+	padding:08px 20px;
+}
+li {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:13px;	
+}
+.button_rr {
+	font-weight:normal;
+}
+td img {
+	border:1px solid black;
+}
+table {
+	padding:15px;
+}
+td {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+	color:#666666;
+	text-align: left;
+}
+.content_lavender {
+	background-color: #ffccff;
+}
+.script {
+	font-family:cursive, georgia, arial;
+}

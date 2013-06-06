@@ -1,0 +1,70 @@
+The attached files are the files we modified or created during the session.
+You can just copy and paste them into your application folder.
+
+Just to go over the steps you need to follow when you start a new project:
+1) Download and unzip CodeIgniter.
+2) Point your WAMP/MAMP to your new CodeIgniter directory.
+3) Copy the .htaccess file that we provide into the root of that directory.
+4) Go to application/config/routes.php Change the line
+	$route['default_controller'] = "welcome";
+	to
+	$route['default_controller'] = "main";
+	(Or whatever you named your controller that needs to direct the user to the index page.
+	So for example, if you have a controller named user.php that sends you to the index page, you would put $route['default_controller'] = "user";)
+5) Ok! now go to application/config/config.php
+	We need to set an encryption key. So find the line
+	$config['encryption_key'] = ''
+	and smash your keyboard for a few seconds. The result should look something like:
+	$config['encryption_key'] = 'lginsbey5o8t7abcy4r8atwelidfnugsboibactugvisbylt7qca2y5byrnz8wn4y5ao873b5yfoc8at'; (At least 32 characters!)
+6) Now go to application/config/autoload.php
+	This is where we select the libraries and helpers that we want to use throughout our application.
+	So we want:
+	$autoload['libraries'] = array('session', 'database');
+	and
+	$autoload['helper'] = array('url');
+
+	It's possible that you're going to need more libraries or helpers. You can just add them to the array like this:
+
+	$autoload['libraries'] = array('session', 'database', 'another_library', 'another_another_library');
+	$autoload['helper'] = array('url', 'another_helper');
+
+7)Now we go to application/config/database.php
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'root'; //this should be your username, usually root unless you changed it.
+	$db['default']['password'] = ''; //i don't have a password. your password if you're on a mac is probably root, or black if you're on a pc.
+	$db['default']['database'] = 'world'; //this is your database name. i'm using the world database from the green belt exam as an example.
+
+	Now we're done with the config folder!
+
+For your Models, Controllers, and Views; I like building them bottom up. So first:
+
+10)Go to application/models. Create a new model file. You don't have to actually put anything here yet except:
+	<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+	class Name_of_my_model extends CI_Model //replace Name_of_my_model with your model name.
+	{
+		
+	}
+
+8)Go to application/controllers. Create a new controller file. (Such as main.php or user.php).
+	We want access to the model we just created, so we need to load it.
+	So we define our constructor function:
+	function __construct()
+	{
+		parent:: __construct();
+		$this->load->model('Name_of_my_model');
+	}
+	This means that now we can use the functions in our model file in our controller file!
+	(Here's the syntax:
+		$this->Name_of_my_model->name_of_the_function_in_my_model();
+	)
+	Also create an index function in that controller that will tell CodeIgniter which page to display when you go to localhost.
+
+9)Go to application/views. Create the index page to display. (This is the page you were just referring to in your controller.)
+
+That's all it takes to get you started. Take a look at the files included, and join the session this afternoon for more!
+Enjoy!
+
+
+
+

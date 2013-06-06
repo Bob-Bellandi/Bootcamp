@@ -1,0 +1,274 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* ----------- End of reset ------------ */
+a {
+	color:#d7619e;
+}
+a:hover {
+	color:#e18fd7;
+}
+a:active {
+	color:#ffffff;
+}
+a:visited {
+	color:#ad56a9;
+}
+.clear {
+	clear:both;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.notice {
+	font-weight: bold;
+}
+.italicize {
+	font-style: italic;
+}
+.arial {
+	font-family: arial,san-serif;
+}
+body {
+	background-image:url('pinkFabric.png');
+}
+#rr-content {
+	background-image:url('pinkFabric.png');
+	height:385px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+}
+	#rr-content .main_image {
+		display:block;
+		margin:auto;
+		padding:0;
+		border:1px dotted gray;
+	}
+}
+#rr-footer  {
+}
+	#rr-footer  ul {
+		list-style: none;
+	}
+	#rr-footer li {
+		display:inline-block;
+		margin:0;
+		padding:3px 8px 8px 8px;
+		border-left: 1px dotted gray;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 11px;
+	}
+	#rr-footer li a {
+		color:#d7619e;
+	}
+	#rr-footer li a:hover {
+		color:#e18fd7;
+	}
+	#rr-footer li a:active {
+		color:#ffffff;
+	}
+	#rr-footer li a:visited {
+		color:#ad56a9;
+	}
+	#rr-footer li:first-child {
+		margin-left:20px;
+		border-left: 0px dotted gray;
+	}
+p {
+	margin-top:10px;
+	line-height: 1.5em;
+}
+p.break {
+	margin-top:0px;
+	line-height: 1.5em;
+}
+.paragraph_highlight {
+	margin:5px;
+	padding:5px;
+	border:1px dotted red;
+	line-height: 1.4em;
+}
+.image_and_tagline {
+	height:170px;
+	width:228px;
+	margin:0;
+	padding:0;
+}
+.image_container {
+	height:170px;
+	width:122;
+	margin:0;
+	padding:0;
+	float:left;	
+}
+.tag_container {
+	height:115px;
+	width:65px;
+	margin:0;
+	padding:23px 20px 0px 15px;
+	float:right;
+	font-size: 15px;
+	line-height:1.5em;	
+}
+.image_and_tagline_small {
+	height:150px;
+	width:246px;
+	margin-bottom:5px;
+	padding:0;
+	border-top:2px dotted gray;
+}
+.image_container_small {
+	height:150px;
+	width:100;
+	margin:0;
+	padding:0;
+	float:left;	
+}
+.tag_container_small {
+	width:150px;
+	margin:0;
+	padding:10px;
+	float:right;
+	font-size: 12px;
+	line-height:1.3em;	
+}
+h4 {
+	font-weight: bold;
+	text-align: center;
+	padding:10px 0 5px 0;
+	font-size: 13px;
+}
+h5 {
+	font-family: cursive;
+	font-weight: bold;
+	text-align: center;
+	padding:0px 0 5px 0;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+ul {
+	margin:5px 10px 5px 10px;
+}
+li {
+	margin:5px 20px 2px 20px;
+}
+
+
+
+/* ------------ Adjustments of jQuery css ------------ */
+.ui-footer-fixed {
+	left: 0;
+	right: 0;
+	width: 310px;
+	position: fixed;
+	z-index: 1000;
+}
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn { font-size: 14px; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.ui-collapsible-content {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+	font-style: italic;
+}
+
+

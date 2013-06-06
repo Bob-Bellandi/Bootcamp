@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+        <script>
+        $(document).ready(function(){
+
+            $('#test_form').submit(function(){
+
+                $('#messages').append("Message: " + $('#new_message').val() + "<br />" + "<form class='comment_form'><textarea class='comment_text'></textarea><input type='submit' value='Post a comment' /></form>");
+                $('#new_message').val('');
+
+                //add an event lister for the form that was just created
+                $('.comment_form').submit(function(){
+                    alert('hey');
+                    return false;
+                });
+
+                return false;
+            });
+
+        });
+        </script>
+
+
+    </head>
+    <body>
+
+            <form id="test_form">
+                <textarea id="new_message"></textarea>
+                <input type="submit" value="Post a message" />
+            </form>
+
+
+            <div id="messages"></div>
+
+        
+    </body>
+</html>

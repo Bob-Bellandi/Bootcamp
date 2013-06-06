@@ -1,0 +1,79 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<title>jQuery Exercises - Common UI</title>
+	<meta name="description" content="jQuery UI">
+	<meta name="author" content="Bob Bellandi">
+	<link rel="stylesheet" type="text/css" href="css/style-UI.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/eggplant/jquery-ui.css"/>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	<script>
+  $(function() {
+    $( "#dialog-confirm" ).dialog({
+      resizable: false,
+      height:140,
+      modal: true,
+      buttons: {
+        "Delete all": function() {
+          $( this ).dialog( "close" );
+        },
+        Cancel: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  });
+  </script>
+</head>
+<body>
+  <h1>jQuery UI of Choice - Modal</h1>
+  <p>ASSIGNMENT: Look into different jquery Plugins out there. Build a webpage that integrates one of the jQuery plugins you've found.</p>
+ 
+<div id="dialog-confirm" title="Empty the recycle bin?">
+  <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These items will be permanently deleted and cannot be recovered. Are you sure?</p>
+</div>
+ <h2>Campfire Girls</h2>
+<p>"Oh! Jack, Ellen, come here this instant!" cried Jane Pellew in so
+excited a manner that the mail rider almost fell out of his jumper in
+his effort to see what it was that made Miss Jane "take on so." She
+was dancing around the broad old veranda waving one of the letters he
+had just handed her.</p><p>
+
+"Too hot, Sis, and we are too comfortable," came Jack's lazy voice
+from under the big ash tree that shaded one side of the porch.
+</p><p>
+"You have enough energy for all of us, so s'pose you come to us,"
+Ellen called.
+</p><p>
+"You won't be hot for long, but you are going to be very uncomfortable
+in a minute." With the warning, Jane jumped off the porch and landed
+in Ellen's lap, then pulled herself up quickly by means of one hand
+entwined in Jack's thick chestnut hair.
+</p><p>
+"Shut up and listen!" commanded Jane.
+</p><p>
+"Nobody has a chance to do anything else with you around," Jack
+reminded his sister.
+</p><p>
+"Who could do anything else but listen after having a hundred and
+thirty pounds of buoyant young Kentucky girl hurled on top of you from
+a distance of some ten feet? I don't believe I shall ever get my
+breath again," groaned Ellen.
+</p><p>
+"I'll say you manage pretty well without it," Jane laughed. "But, as I
+was saying, listen and you will hear the most wonderful piece of news
+that has happened in the history of mankind," and she started reading
+from the letter she had still managed to keep in her hand:
+</p><p>
+"Dearest Jane:"
+</p><p>
+"Bet it is from one of the Camp Fire Girls," interrupted her brother.
+</p><p>
+"Keep quiet, I have a good mind not to tell you after all. But I am
+such a nice girl I suppose I'll have to. It's from Mabel Wing. Now,
+let me finish," pleaded Jane.
+</p>
+</body>
+
+</html>

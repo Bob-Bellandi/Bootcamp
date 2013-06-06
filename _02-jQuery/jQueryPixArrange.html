@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>jQuery UI - Sortable Photo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+  <style>
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+  </style>
+
+  <script>
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  </script>
+
+</head>
+<body>
+ <h1>Build a Skyscraper</h1>
+ Arrange the segments of the photo below to render a building on the Embarcadero:
+<ul id="sortable">
+  <li><img src="images/building1-c.png" alt="segment3"></li>
+  <li><img src="images/building1-d.png" alt="segment4"></li>
+  <li><img src="images/building1-b.png" alt="segment2"></li>
+  <li><img src="images/building1-e.png" alt="segment5"></li>
+  <li><img src="images/building1-a.png" alt="segment1"></li>
+</ul>
+
+</body>
+</html>

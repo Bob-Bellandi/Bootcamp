@@ -1,0 +1,143 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="788" measuredH="1184" mockupW="606" mockupH="1143">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="182" y="41" w="606" h="1143" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="256" y="281" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HomeIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="680" y="281" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>EmailIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="303" y="281" w="364" h="-1" measuredW="368" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <italic>true</italic>
+        <text>Traditional%20-%20Really%20Rosie%20Designs</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::MenuBar" x="270" y="943" w="430" h="29" measuredW="460" measuredH="29" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%20%20%20%20%20%7C%20%20%20%20%20About%20%20%20%20%20%7C%20%20%20%20%20Traditional%20%20%20%20%20%7C%20%20%20%20%20Nautical%20%20%20%20%20%7C%20%20%20%20%20Old%20West</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Arrow" x="256" y="314" w="460" h="10" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Image" x="256" y="720" w="130" h="169" measuredW="639" measuredH="853" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/6.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Image" x="256" y="528" w="130" h="169" measuredW="639" measuredH="853" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/2.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="256" y="339" w="130" h="169" measuredW="640" measuredH="852" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <filter>true</filter>
+        <src>./assets/0.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Paragraph" x="417" y="339" w="200" h="142" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Soft%20green%20toile%2C%20pink%20and%20green%20tassel%20trim%2C%20a%20braided%20handle%20and%20a%20sumptuous%20pink%20satin%20lining%20make%20this%20a%20lovely%20handbag%20for%20the%20summer.%20%23100%2C%20%2455%2C%20Available</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Paragraph" x="417" y="530" w="200" h="140" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Green%20toile%2C%20pink%20gimp%20%26%20delicate%20trumpet%20flower%20beads%2C%20pink%20satin%20cord%20handle%20and%20a%20lush%20pink%20lining%20make%20this%20a%20very%20feminine%20handbag.%20%23101%2C%20%2450%2C%20Sold%20out</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Paragraph" x="417" y="716" w="200" h="136" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>This%20green%20toile%20handbag%20features%20green%20velvet%20ribbon%20with%20trumpet%20flower%20beads%20and%20soft%20pink%20satin%20cord%20handle.%20Lined%20with%20a%20delicate%20pink%20cotton.%20%23102%2C%20%2450%2C%20Available</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Arrow" x="256" y="513" w="360" h="10" measuredW="150" measuredH="100" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::PointyButton" x="395" y="481" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>productEnlargement%26bm%3BproductEnlargement.bmml%26bm%3BproductEnlargement.bmml%26bm%3BproductEnlargement.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22213%2C440%2C277%2C467%22%20href%3D%22productEnlargement.bmml%22%20alt%3D%22productEnlargement%22%20id%3D%2233%22/%3E</map>
+        <text>Enlarge</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Arrow" x="256" y="706" w="360" h="10" measuredW="150" measuredH="100" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::PointyButton" x="395" y="670" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enlarge</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::PointyButton" x="395" y="859" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enlarge</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::PointyButton" x="546" y="906" w="-1" h="-1" measuredW="166" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>More%20Traditional%20Designs</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Arrow" x="256" y="889" w="360" h="10" measuredW="150" measuredH="100" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <curvature>0</curvature>
+        <direction>bottom</direction>
+        <leftArrow>false</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::PointyButton" x="580" y="481" w="-1" h="-1" measuredW="43" measuredH="27" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CartIcon%7Csmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::PointyButton" x="579" y="670" w="-1" h="-1" measuredW="43" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CartIcon%7Csmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::PointyButton" x="577" y="859" w="-1" h="-1" measuredW="43" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>CartIcon%7Csmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

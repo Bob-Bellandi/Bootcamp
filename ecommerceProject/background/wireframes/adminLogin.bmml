@@ -1,0 +1,63 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1130" measuredH="623" mockupW="900" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="230" y="23" w="900" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login%20to%20Begin%0Ahttp%3A//reallyrosiedesigns.com/rosie/admin/index.php</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="260" y="106" w="607" h="-1" measuredW="580" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Really%20Rosie%20Designs%20-%20Keep%20our%20products%20up%20to%20date%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="562" y="273" w="202" h="89" measuredW="202" measuredH="89" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="8" controlTypeID="__group__" x="25" y="31" w="177" h="26" measuredW="177" measuredH="26" zOrder="0" locked="false" isInGroup="7">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="42" y="0" w="135" h="-1" measuredW="79" measuredH="26" zOrder="0" locked="false" isInGroup="8"/>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="-1" h="-1" measuredW="29" measuredH="21" zOrder="1" locked="false" isInGroup="8">
+              <controlProperties>
+                <text>User</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="11" y="0" w="-1" h="-1" measuredW="44" measuredH="21" zOrder="1" locked="false" isInGroup="7">
+          <controlProperties>
+            <size>18</size>
+            <text>Login</text>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="67" y="63" w="135" h="-1" measuredW="79" measuredH="26" zOrder="2" locked="false" isInGroup="7"/>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="0" y="66" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="3" locked="false" isInGroup="7">
+          <controlProperties>
+            <text>Password</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::PointyButton" x="706" y="390" w="-1" h="-1" measuredW="61" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Submit</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="624" y="273" w="-1" h="-1" measuredW="201" measuredH="17" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <size>14</size>
+        <text>System%20messages%2C%20if%20applicable</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="534" y="139" w="-1" h="-1" measuredW="300" measuredH="120" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/1TaskLogin.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::PointyButton" x="1051" y="550" w="-1" h="-1" measuredW="60" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

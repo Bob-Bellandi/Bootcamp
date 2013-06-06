@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>jQuery: What it can do.</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   
+    <!--<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+-->
+<script type="text/javascript">
+	$(document).ready(function() {
+ 
+		
+		$("#add_class").click(function() {
+			$("#add_class").addClass("italicize");
+		});
+		$("#put_after").click(function() {
+			$("#put_after").after("Toto");
+		});
+		$("#put_append").click(function() {
+			$("#put_append").append("Toto");
+		});
+		$("#attribute").click(function(){
+			var attrTitle = $("#attribute").attr("alt");
+			alert("The title attribute is: " + attrTitle);
+		});
+		$("#denver").click(function() {
+			$("#denver").before("Denver ");
+		});
+		$(".h42h2").click(function() {
+			$(".h42h2").html("<h2>Poconos</h2>");
+		});
+		$('#specify_text').click(function() {
+			$('#specify_text').text("We have changed it!")
+    	});
+    	$("#hometown-button").click(function(){
+  			alert($("#hometown").val() + " is the home town.");
+		});
+ 		$("#p_visibility").click(function() {
+			$("#img_visibility").toggle(3000);
+		});
+		$("#hide_building").click(function() {
+			$("#hide_building").hide();
+		});
+		$("#show_building").click(function() {
+			$("#hide_building").show();
+		});
+		$("#slider_down").click(function() {
+			$("#aligator").slideDown();
+		});
+		$("#slider_toggle").click(function() {
+			$("#aligator").slideToggle();
+		});
+		$("#slider_up").click(function() {
+			$("#aligator").slideUp();
+		});
+		$("#iris_out").click(function() {
+			$("#iris").fadeOut();
+		});
+		$("#iris_in").click(function() {
+			$("#iris").fadeIn(1000);
+		});
+	    $("form").submit(function(){
+        	alert("Submitted");
+  		});
+  		$("button").click(function(){
+    		$("div").text($("form").serialize());
+  		});
+  		$("input").focus(function(){
+  			$("span").css("display","inline").fadeOut(2000);
+		});
+		$("#click_test").click(function(){
+			alert("You Clicked");
+		});
+
+
+	}); //end ready
+</script>	
+
+</head>
+
+<body>
+<h1>Basic jQuery Functions</h1>
+
+<!-- Build a webpage that uses the following: .addclass, .after, .append, .attr, .before, .html, .text, .val, .toggle, .hide, .show, .slideDown, .slideToggle, .slideUp, .fadeOut, .fadeIn, .submit, .serialize, .focus, .click. -->
+<h3>.addClass</h3>
+Click the text below to add italic styling:<br>
+<p id="add_class" >Notice: Keep paragraphs short!</p>
+
+
+<h3>.after</h3>
+<p id="put_after" class="outline">Click here, and put the Oz Dog outside the castle.</p>
+
+<h3>.append</h3>
+<p id="put_append" class="outline">Click here, and the Oz dog will be put after the castle.</p>
+
+<h3>.attr</h3>
+<p>Click the image to see how it's "alt" tag is presented.</p>
+<img id="attribute" src="images/grapes3.png" alt="There are more than 3 grapes!">
+
+<h3>.before</h3>
+<p id="denver">is the capital of Colorado. (Click here to find out. The answer will be placed above this paragraph element.)</p>
+
+<h3>.html</h3>
+<p>Click on either mountain range to change the size of the type and the name of the range.</p>
+<h4 class="h42h2">Rockie Mountains</h4>
+<h4 class="h42h2">Sierra Nevada</h4>
+
+<h3>.text</h3>
+<p>This time, let's use a jQuery method to <em>change</em> the text in the phrase below.</p>
+<p id="specify_text">We are in Mountain View, California.</p>
+
+<h3>.val</h3>
+<form action="">
+Home town: <input type="text" name="hometown" id="hometown"><br>
+Current residence: <input type="text" name="currentresidence">
+</form>
+<p id="hometown-button">Click to learn home town.</p>
+
+<h3>.toggle - hide() & show()</h3>
+<p id="p_visibility">Click here, and the following image will disappear. Click again, and it will appear.</p>
+<img id="img_visibility" src="images/pear2.png" alt="pears">
+
+<h3>.hide</h3>
+<p>Click the image to hide it.</p>
+<img id="hide_building" src="images/transamericaBldg.png" alt="SF building">
+
+<h3>.show</h3>
+<p id="show_building">Click here to show the image that you just hid.</p>
+
+<h3>.slideDown</h3>
+<p id="slider_down">If the picture of the kids and aligator is not visible, click here to watch the picture slide down and become visible.</p>
+<img id="aligator" src="images/kidsAndAligator.png" alt="statue">
+
+<h3>.slideToggle</h3>
+<p id="slider_toggle">Click here to watch the kids and aligator slide down or up. Click again to have the picture do the opposite.</p>
+
+<h3>.slideUp</h3>
+<p id="slider_up">Click here to watch the kids and aligator slide up.</p>
+
+<h3>.fadeOut</h3>
+<p id="iris_out">Click to watch the iris fade out.</p>
+<img id="iris" src="images/iris.png" alt="iris">
+
+<h3>.fadeIn</h3>
+<p id="iris_in">Click to watch the iris fade in.</p>
+
+<h3>.submit</h3>
+<form action="">
+Computer type: 
+<input type="text" name="Computer" value="Mac"><br>
+Operating system: 
+<input type="text" name="OS" value="OSX"><br>
+<input type="submit" value="Submit">
+</form> 
+
+<h3>.serialize</h3>
+<form action="">
+Computer type: 
+<input type="text" name="Computer" value="Mac"><br>
+Operating system: 
+<input type="text" name="OS" value="OSX"><br>
+<input type="submit" value="Submit">
+</form>
+<button>Serialize the data in the form.</button>
+
+<h3>.focus</h3>
+<style>
+span
+{
+display:none;
+}
+</style>
+
+<input>
+<span>Please enter PIN.</span>
+<p>Click in the input field to show focus.</p>
+
+
+<h3>.click</h3>
+<p>See above: show(), hide(), and others.</p>
+<p id="click_test">And, click here for an Alert.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* CSS */
+
+/* ----------- Reset ----------- */
+* {
+	margin:0px;
+	padding:0px;
+	font-family:Times, Times Roman, Times New Roman, serif;
+	font-size:21px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
+/* -----------  Unique items ------------ */
+#wrapper {
+	width:900px;
+	min-height:500px;
+	margin:auto;
+}
+#heading {
+	width:860px;
+	height:80px;
+	margin:10px;
+	padding:10px;
+	border-radius:15px;
+	background-color:#dedede;
+}
+	#heading h1 {
+		font-size:42px;
+		line-height:70px;
+	}
+
+/* - - - - - -  Navigation - - - - - - */	
+#nav {
+	width:220px;
+	height:370px;
+	background-color:#dedede;
+	border-radius:20px;
+	margin:15px 20px 10px 10px;
+	float:left;
+}
+	#nav h1 {
+		padding:06px 0px 0px 15px;
+		font-weight:normal;
+	}
+	#nav-head {
+		padding:20px 0px 0px 20px;
+	}
+	#nav a {
+		text-decoration:none;
+		font-size:14px;
+		/*float-left;*/
+	}
+	#nav ul {
+		padding-left:35px;
+	} 
+	#nav li {
+		line-height:18px;
+	}
+
+/* - - - - - -  Contents (on right) - - - - - - */
+#contents {
+	width:600px;
+	height:505px;
+	background-color:#bbbbbb;
+	border-radius:15px;
+	margin:15px 10px 0px 0px;
+	padding:30px 10px 0 30px;
+	float:left;
+}
+	#contents ul li {
+		font-size:16px;
+		padding-top:15px;
+		margin-left:20px;
+		line-height:21px;
+	}
+	#contents p {
+		font-size:16px;
+		line-height:21px;
+	}
+	#contents ul li a {
+		font-size:15px;
+		font-weight:bold;
+	}
+	#contents h1 {
+		font-size:32px;
+		padding-bottom:20px;
+	}
+.no-bold {
+	font-size:15px;
+	font-weight:normal;
+}
+
+/* - - - - - -  Foot - - - - - - */
+#footing {
+	width:880px;
+	height:60px;
+	margin:20px;
+	background-color:#dddddd;
+	border-radius:15px;
+}
+	#footing p {
+		font-size:15px;
+		line-height:20px;
+		padding:10px 0 10px 20px;
+	}
+	#footing a {
+		font-size:15px;
+	}
+.clear {
+	clear:both;
+}
+

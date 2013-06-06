@@ -1,0 +1,37 @@
+id,subject,grade,teacher_note,created_at,updated_at,students_id
+100,Latin,89,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",1
+101,Biology,79,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",1
+102,Geography,96,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",1
+103,Latin,94,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",2
+104,Biology,93,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",2
+105,Geography,92,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",2
+106,Latin,91,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",3
+107,Biology,90,"Good grasp of subject","0000-00-00 00:00:00","0000-00-00 00:00:00",3
+108,Geography,89,"Very good effort","0000-00-00 00:00:00","0000-00-00 00:00:00",3
+109,Latin,88,Improving,"0000-00-00 00:00:00","0000-00-00 00:00:00",4
+110,Biology,87,"Good effort","0000-00-00 00:00:00","0000-00-00 00:00:00",4
+111,Geography,86,"Poor quality drawings","0000-00-00 00:00:00","0000-00-00 00:00:00",4
+112,Latin,85,Adequate,"0000-00-00 00:00:00","0000-00-00 00:00:00",5
+113,Biology,84,"Needs to improve","0000-00-00 00:00:00","0000-00-00 00:00:00",5
+114,Geography,83,"Could do better","0000-00-00 00:00:00","0000-00-00 00:00:00",5
+115,Latin,82,"Excellent improvement","0000-00-00 00:00:00","0000-00-00 00:00:00",6
+116,Biology,81,"Improved over past exams","0000-00-00 00:00:00","0000-00-00 00:00:00",6
+117,Geography,80,"Needs to try harder","0000-00-00 00:00:00","0000-00-00 00:00:00",6
+118,Latin,79,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",7
+119,Biology,78,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",7
+120,Geography,77,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",7
+121,Latin,76,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",8
+122,Biology,75,"Trying, better performance","0000-00-00 00:00:00","0000-00-00 00:00:00",8
+123,Geography,74,"Trying, better performance","0000-00-00 00:00:00","0000-00-00 00:00:00",8
+124,Latin,73,"Absent too often","0000-00-00 00:00:00","0000-00-00 00:00:00",9
+125,Biology,72,"Absent too often","0000-00-00 00:00:00","0000-00-00 00:00:00",9
+126,Geography,71,"Absent too often","0000-00-00 00:00:00","0000-00-00 00:00:00",9
+127,Latin,70,"Student was ill","0000-00-00 00:00:00","0000-00-00 00:00:00",10
+128,Biology,80,"Mediocre for this student","0000-00-00 00:00:00","0000-00-00 00:00:00",10
+129,Geography,79,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",10
+130,Latin,78,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",11
+133,Biology,77,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",11
+134,Geography,76,"Not reaching potential","0000-00-00 00:00:00","0000-00-00 00:00:00",11
+135,Latin,75,"Trying, better preformance","0000-00-00 00:00:00","0000-00-00 00:00:00",12
+136,Biology,74,"Trying, better preformance","0000-00-00 00:00:00","0000-00-00 00:00:00",12
+137,Geography,73,"Absent too often","0000-00-00 00:00:00","0000-00-00 00:00:00",12

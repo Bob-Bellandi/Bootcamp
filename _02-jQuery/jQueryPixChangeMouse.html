@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>jQuery UI - Change-out Photos</title>
+  	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  	<link rel="stylesheet" type="text/css" href="css/jQueryPixChangeMouse.css">
+  	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#segment_a").mouseover(function() {
+				$("#segment_a").attr("src", "images/optionalExerciseSkyline1.png");
+			$("#segment_a").mouseout(function() {
+				$("#segment_a").attr("src", "images/optionalExerciseBulding1.png");	
+			});
+			$("#segment_b").mouseover(function() {
+				$("#segment_b").attr("src", "images/optionalExerciseSkyline2.png");
+			});
+			$("#segment_c").mouseover(function() {
+				$("#segment_c").attr("src", "images/optionalExerciseSkyline3.png");
+			});
+			$("#segment_d").mouseover(function() {
+				$("#segment_d").attr("src", "images/optionalExerciseSkyline4.png");
+			});
+			$("#segment_e").cmouseover(function() {
+				$("#segment_e").attr("src", "images/optionalExerciseSkyline5.png");
+			});
+		});//end ready
+</script>
+
+</head>
+<body>
+ 
+<h1>Change the Image With Your Mouse</h1>
+Please open browser viewport to permit five images across the screen.
+<p>Pass your mouse across the photo below to change the image:</p>
+<a href="#"><img src="images/optionalExerciseBridge1.png" onmouseover="this.src='images/optionalExerciseSkyline1.png'" onmouseout="this.src='images/optionalExerciseBridge1.png'" /></a>
+<a href="#"><img src="images/optionalExerciseBridge2.png" onmouseover="this.src='images/optionalExerciseSkyline2.png'" onmouseout="this.src='images/optionalExerciseBridge2.png'" /></a>
+<a href="#"><img src="images/optionalExerciseBridge3.png" onmouseover="this.src='images/optionalExerciseSkyline3.png'" onmouseout="this.src='images/optionalExerciseBridge3.png'" /></a>
+<a href="#"><img src="images/optionalExerciseBridge4.png" onmouseover="this.src='images/optionalExerciseSkyline4.png'" onmouseout="this.src='images/optionalExerciseBridge4.png'" /></a>
+<a href="#"><img src="images/optionalExerciseBridge5.png" onmouseover="this.src='images/optionalExerciseSkyline5.png'" onmouseout="this.src='images/optionalExerciseBridge5.png'" /></a>
+
+<p>A more interesting way to do with would be to create two arrays, each array individuallytholding the segments of an image. Then, the different segments of the images could be swapped out. This approach would have the advantage of leaving each image on the page until it was completely swapped out for the other.</p>
+<p></p>
+<a href="#"><img src="images/optionalExerciseSkyline1.png" onmouseover="this.src='images/optionalExerciseBridge1.png'" onmouseout="this.src='images/optionalExerciseSkyline1.png'" /></a>
+<a href="#"><img src="images/optionalExerciseSkyline2.png" onmouseover="this.src='images/optionalExerciseBridge2.png'" onmouseout="this.src='images/optionalExerciseSkyline2.png'" /></a>
+<a href="#"><img src="images/optionalExerciseSkyline3.png" onmouseover="this.src='images/optionalExerciseBridge3.png'" onmouseout="this.src='images/optionalExerciseSkyline3.png'" /></a>
+<a href="#"><img src="images/optionalExerciseSkyline4.png" onmouseover="this.src='images/optionalExerciseBridge4.png'" onmouseout="this.src='images/optionalExerciseSkyline4.png'" /></a>
+<a href="#"><img src="images/optionalExerciseSkyline5.png" onmouseover="this.src='images/optionalExerciseBridge5.png'" onmouseout="this.src='images/optionalExerciseSkyline5.png'" /></a>
+</body>
+</html>

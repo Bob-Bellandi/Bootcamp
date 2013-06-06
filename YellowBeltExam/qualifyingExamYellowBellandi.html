@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dominion Services</title>
+	<meta name="description" content="Dominion Services">
+	<meta name="author" content="Bob Bellandi">
+	<link rel="stylesheet" type="text/css" href="css/qualifyingExamYellowBellandi.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	
+	<!-- script>
+	$(document).ready(function() {
+		$("#switch_image").click(function() {
+		$("#switch_image").attr("src", "images/office-group-440x302.png");
+		});
+	});//end ready
+	</script -->
+
+	<script>
+	$(document).ready(function() { 
+    $("#switch_image").click(function() {
+
+        var src = $('#switch_image').attr('src');
+        if(src == 'images/office-group-440x302.png') {
+            $("#switch_image").attr("src","images/woman-tree-boy-440x302.png");
+        } else {
+            $("#switch_image").attr("src","images/office-group-440x302.png");
+        }
+    }); 
+ 	$("#show_hide_submenu").click(function() {
+		$("#dropper").show();
+		});
+
+
+});
+	</script>
+
+</head>
+
+<body>
+<div id="wrapper">
+	<img class="left" src="images/logo-145x48.png" alt="Dominion Logo" title="Dominion Logo">
+	<div id="header" class="right">
+		<div id="searching_box">
+		<form action="search.php" method="post"> 
+			<input type="submit" value="Corporate &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; &#8595; " id="corporate_button">
+			<input type="text" name="search" placeholder="Search" id="search_box" size="50" class="inputs">
+			<img src="images/icon-search-20x19.png" alt="search icon">
+		</form>	
+		</div> <!-- #searching_box -->
+	</div> <!-- #header -->
+	<div class="clear"></div> 
+		<ul id="nav_main" class="right">
+			<li id="show_hide_submenu"><a href="#">Customers</a>
+			<ul id="dropper">
+				<li><span="notice">Electric Customers</span><br>Virginia<br>North Carolina</li>
+				<li><span="notice">Gas Customers</span><br>Ohio<br>West Virginia</li>
+				<li><span="notice">New to Dominion?</span><br>Welcome to Start Servicew Here</li>
+				<li><span="notice">Energy Offers</span><br>Residential Offers<br>Business Offers</li>
+			</ul>	
+			</li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Investors</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Civism</a></li>
+			<li><a href="#">About Dominion</a></li>
+		</ul>
+			<hr>
+	<div id="customer_notices">	
+
+		<div id="manage_account" class="left">
+		<p class="white_shadowed large">Manage Your Account</p>
+		<p class="white_shadowed small">View/pay ebills, analyze usage and more.</p>
+			<div id="user_inputs" style="border:1px dotted yellow">
+				<form action="process.php" method="post">
+					<label class="mng_account medium">User Name:</label><br>
+					<input type="text" name="user_name" size="33">
+					<p class="small">Forgot your user name?</p>
+					<p class="move_down"></p>
+					<label class="mng_account medium move_down">Password:</label>
+					<input type="text" name="user_name" size="33">
+					<img src="images/icon-lock14x20.png" alt="secure">
+					<p class="small">Forgot your password?</p>
+					<p class="move_down"></p>
+					<div id="submit_button">
+						<input id="signin_button" type="submit" value="Sign In">
+						<p class="right mng_account medium">Register <img src="images/icon-info18x18.png" alt="Sign in"></p>
+					</div> <!-- #submit_button -->
+				</form>	
+			</div> <!-- #user_inputs -->
+			<div id="new_customer">
+			<p class="white_shadowed medium center">I am a New Customer</p>
+			</div> <!-- #new_customer -->
+		</div> <!-- #manage_account --> 
+		
+		
+		<img class="left" id="switch_image" src="images/woman-tree-boy-440x302.png" alt="Dominion brings you happiness and security.">	
+
+		<div id="safe_digging" class="right">
+			<p class="white_shadowed large">April Is Safe Digging Month</p>
+			<p class="move_down"></p>
+			<p class="white_shadowed medium" left>Dominion Reminds You To Call 800 Before Digging</p>
+			<img class="right" src="images/811-50x49.png" alt="Safe digging, call 811 first.">
+		</div> 	<!-- #safe_digging -->
+		<div class="clear"></div>
+
+
+	</div> <!-- #customer_notices -->	
+	<p class="move_down">News Update: Dominino to Build Solar Power Project in Georgia</p>
+
+	<div id="row_notices"`>
+		<div class="specialty left">
+			<img class="specialty_pix" src="images/dataServices-80x80.png" alt="Our data services are growing.">
+			<h3>Dominion Data Center Services</h3>
+			<p class="medium"> Data centers are a growing segment of our Virginia customer base.</p>
+		</div> <!-- .specialty -->	
+		<div class="specialty left">
+			<img class="specialty_pix" src="images/greenSolutions-80x80.png" alt="Use energy efficiently">
+			<h3>Green Solutions</h3>
+			<p class="medium">Save money, use energy efficiently and help the environment.</p>
+		</div> <!-- .specialty -->	
+		<div class="specialty left">
+			<img class="specialty_pix" src="images/promise-80x80.png" alt="Gov. Malloy breaks his promise.">
+			<h3>A Promise is a Promise</h3>
+			<p>If Gov. Malloy breaks his word, Connecticut electric rates could rise.</p>
+		</div> <!-- .specialty -->
+	</div> <!-- #row_notices -->	
+
+	<ul id="nav_foot" class="left">
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Legal Terma and Conditions</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Para Servilos</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">Diversity</a></li>
+		</ul>
+
+	<p class="text_right">NYSE: (April 3, 2013) D 58.75 +0.13</p>	
+
+</div> <!-- #wrapper -->	
+</body>
+</html>
